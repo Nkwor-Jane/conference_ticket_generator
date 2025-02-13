@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --color-regal-blue: #02191D;
+    --color--white: #FAFAFA; 
+    --color-fade-white: #B3B3B3;
+    --color-bg-highlight: #0A0C11;
+    --color-lightregal-blue: #08252B;
+    --color-fade-blue: #12464E;
+    --color-black: #0A0C11;
+    --color-stroke: #0E464F;
+    --color-btn-blue: #24A0B5; 
+    --font-road-rage: "Road Rage", "serif";
+    --font-roboto: "Roboto", "serif";
+}
