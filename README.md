@@ -44,7 +44,7 @@ This is project is for promotion into stage 3 for the HNG Internship Cohort 12. 
 
 ## Live Demo
 
-Check out the live demo [here]().
+Check out the live demo [here](https://eticketgenerator.netlify.app/).
 
 ## Contributing
 
