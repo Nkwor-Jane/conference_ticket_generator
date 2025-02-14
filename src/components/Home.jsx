@@ -155,17 +155,11 @@ const Home = () => {
     const generateTicket = () => {
         const newSerial = Math.floor(1000000000 + Math.random() * 9000000000).toString();
         setSerialNumber(newSerial);
-    
-        // Get existing tickets from localStorage
         const existingTickets = JSON.parse(localStorage.getItem("ticketHistory")) || [];
-
-        // Create a new ticket object
         const newTicket = {
             serialNumber: newSerial,
-            ...formData, // Include ticket details
+            ...formData,
         };
-
-        // Save updated tickets to localStorage
         localStorage.setItem("ticketHistory", JSON.stringify([...existingTickets, newTicket]));
 
         setTimeout(() => {
@@ -186,7 +180,7 @@ const Home = () => {
     
   return (
     <div>
-        <div className='overflow-hidden bg-lightregal-blue h-7xl rounded-2xl p-6 border border-stroke sm:w-lg md:w-xl bg-resp '>
+        <div className=' bg-lightregal-blue h-7xl rounded-2xl p-6 border border-stroke sm:w-lg md:w-xl bg-resp '>
 
         <div className='block md:flex md:gap-2 justify-between items-center p-2'>
         <h2 className='text-3xl md:mb-3 font-playfair tracking-wider'>{stepDescriptions[step]}</h2>
@@ -196,7 +190,7 @@ const Home = () => {
             <div className="progress" style={{ width: `${(step) * 50}%` }}></div> 
         </div>
 
-        <div className=" rounded-lg p-4 border border-stroke w-full h-6xl p-5 ">
+        <div className="glow-form rounded-lg p-4 border border-stroke w-full h-6xl p-5 ">
 
         {step === 1 && (
           <TicketList  

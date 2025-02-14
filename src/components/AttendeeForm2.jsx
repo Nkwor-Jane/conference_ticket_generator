@@ -62,7 +62,7 @@ const AttendeeForm = ({formData, handleChange, handleAvatarUpload, errors}) => {
             <input required type="email" id="email" name="email" value={formData.email} onChange={handleChange} 
             placeholder="hello@avioflagos.io"
             className="py-2 w-full rounded-lg text-fade-white border border-stroke 
-            placeholder-white px-8 mt-2 cursor-pointer mb-2 focus-visible:outline-2 "/><br></br>
+            placeholder-white px-8 mt-2 cursor-pointer mb-2"/><br></br>
             {errors.email && <span 
             role="alert"
             aria-live="assertive"

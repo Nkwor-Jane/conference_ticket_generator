@@ -16,15 +16,15 @@ const SuccessScreen = ({formData}) => {
     
     <div id="ticket-preview" className="ticketResp">
         <div className="flex flex-col items-center border-4 rounded-2xl
-            justify-center p-10 border-stroke mb-4 w-105 bg-regal-blue border-b-4 border-b-dashed scooped-corners">
+            justify-center p-10 border-stroke mb-4 w-105 bg-regal-blue border-b-4 border-b-dashed scooped-corners ">
             <div className="border-4 rounded-2xl border-fade-blue bg-transparent p-2">
                 <div className="text-center">
                     <p className="font-road-rage text-6xl py-2">Techember Fest "25</p>
                     <p className="font-roboto pb-2 ">📍04 Rumens road, Ikoyi, Lagos<br></br> 📅 March 15,2025 | 7:00 PM</p>
                 </div>
                 <div className="m-2 mb-4 flex justify-center ">
-                <img src={formData.avatar} alt="Avatar" className="rounded-lg w-40 h-40 border-4 border-btn-blue" />
-            </div>
+                    <img src={formData.avatar} alt="Avatar" className="rounded-lg w-40 h-40 border-4 border-btn-blue" />
+                </div>
            
             <div className="border grid grid-cols-2
                 border-stroke border-2 opacity-75 p-4 rounded-2xl bg-lightregal-blue m-2 divide-stroke detsResp">

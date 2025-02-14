@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import "../App.css";
 
-const TicketList = ({errors, formData, handleChange, nextStep}) => {
+const TicketList = ({errors, formData, handleChange}) => {
     const ticketTypes = [
         {type: "FREE", access:"REGULAR ACCESS", seats: "20/52" },
         {type: "VIP", access:"VIP ACCESS", seats: "20/52" },

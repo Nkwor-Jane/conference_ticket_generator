@@ -35,17 +35,18 @@ This is project is for promotion into stage 3 for the HNG Internship Cohort 12. 
 
 ## Screenshots
 
-- Desktop View
+- Ticket Selection View
   
-![Before View]()
+![Before View](../assets/ticket_selection1.png)
 
-- Tablet View
-![After View]()
-
+- Attendee Details View
+![After View](../assets/attendee_details.png) 
+- Ticket Generated View
+![After View](../assets/ticket_generation.png)
 ## Live Demo
 
 Check out the live demo [here](https://eticketgenerator.netlify.app/).
-
+nbn
 ## Contributing
 
 Feel free to clone and fork this repository. You can also submit pull requests. Any contributions are welcome!
