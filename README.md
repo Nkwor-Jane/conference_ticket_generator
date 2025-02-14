@@ -27,26 +27,28 @@ This is project is for promotion into stage 3 for the HNG Internship Cohort 12. 
 
 2. Open your browser and navigate to: ```javascript http://localhost:5173/```
 
-## Components
+## Main Components
 
-1. **TicketList.jsx:** The main component that renders the whole page.
-2. **AttendeeForm.jsx:** This is the navigation bar component.
-3. **SuccessScreen.jsx:** This is the footer component.
+1. **TicketList.jsx:** This renders the ticket type and number of tickets
+2. **AttendeeForm.jsx:** This accepts information of the attendee.
+3. **SuccessScreen.jsx:** This displays the generated ticket.
 
 ## Screenshots
 
 - Ticket Selection View
   
-![Before View](../assets/ticket_selection1.png)
+![Before View](./src/assets/ticket_selection1.png)
 
 - Attendee Details View
-![After View](../assets/attendee_details.png) 
+![After View](./src/assets/attendee_details.png)
+
 - Ticket Generated View
-![After View](../assets/ticket_generation.png)
+![After View](./src/assets/ticket_generated.png)
+
 ## Live Demo
 
 Check out the live demo [here](https://eticketgenerator.netlify.app/).
-nbn
+
 ## Contributing
 
 Feel free to clone and fork this repository. You can also submit pull requests. Any contributions are welcome!
