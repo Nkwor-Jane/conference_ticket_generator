@@ -89,10 +89,10 @@ const Home = () => {
         }
         const formDataUpload = new FormData();
         formDataUpload.append("file", file);
-        formDataUpload.append("upload_preset", "e_ticket");
+        formDataUpload.append("upload_preset", import.meta.env.VITE_CLOUDINARY_UPLOAD_PRESET);
         try {
           const response = await axios.post(
-            "https://api.cloudinary.com/v1_1/jane126/image/upload", formDataUpload);
+            import.meta.env.VITE_CLOUDINARY_URL, formDataUpload);
           if (response.data.secure_url) {
             setFormData((prev) => ({
                 ...prev,
