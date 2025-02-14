@@ -40,7 +40,7 @@ const AttendeeForm = ({formData, handleChange, handleAvatarUpload, errors}) => {
             </div>
         </div>
 
-        <div className="h-1 md:w-110 w-95 bg-stroke rounded"></div>
+        <div className="h-1 md:w-110 w-95 bg-stroke rounded lineResp"></div>
 
         <div className="py-1 w-full">
             <label htmlFor="full_name">

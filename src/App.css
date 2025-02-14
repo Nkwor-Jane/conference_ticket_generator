@@ -17,41 +17,14 @@
     border-radius: 5px;
 }
 
-/* .scooped-corners {
-  overflow: hidden;
-  position: relative;
-  margin: auto;
-  max-width: 30em;
-  min-height: 10em;
-  border-radius: 1em;
-  /* background-color: linear; */
-  /* mask: radial-gradient(20px at 40px 40px, transparent 98%, #24A0B5) -40px -40px;
-  /* --mask: radial-gradient(40px at 40px 40px,#0000 98%,#000) -40px -40px;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);
-   */
-/* } */
-/* .scooped-corners:before {
-  content: "";
-  position: absolute;
-  margin: -30px;
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-  
-  border-radius: 100%; /* new */
-  /* box-shadow: 0 0 0 250px transparent;
-}  */
+
 .scooped-corners {
   position: relative;
   margin: auto;
   max-width: 30em;
   min-height: 10em;
-  background: ; /* Ensures visibility */
   border-radius: 1em;
   overflow: hidden;
-  
-  /* Creates a thick outer outline without affecting masking */
   border: 1px solid #24A0B5;
 
   /* Scooped Corners Mask */
@@ -65,42 +38,46 @@
   -webkit-mask-composite: destination-in;
   mask-composite: intersect;
 }
-/* .bg-glow {
-  width: 100%;
-  height: 100%;
-  background-color: #02191D;
-} */
 
-/* .bg-glow::after,
-.bg-glow::before {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  background: hsl(199, 56%, 18%);
-  width: 700px;
-  height: 700px;
-  border-radius: 50%;
-  filter: blur(70px);
-  mix-blend-mode: lighten;
-} */
 
-/* .bg-glow::before {
-  top: 0;
- bottom: 0;
-  transform: translateY(50%);
-} */
-/* .bg-glow::after {
-  bottom: 0;
-  top: 0;
-  margin: auto;
-  transform: translateY(50%);
-} */
-/*With gradient background*/
-/* .bg-glow {
-  background: radial-gradient(
-      circle closest-corner at center 125px,
-      #0A0C11,
-      #02191D 70%
-    )
-    no-repeat;
-} */
+@media (min-width:480px) and (max-width:639px){
+  .navResp{
+    width: 400px;
+  }
+  .navResp ul{
+    display: none;
+  }
+  .bg-resp{
+    width: 400px;
+  }
+  .btnDiv{
+    display: block;
+    width: 2;
+  }
+  .btnResp{
+    width: 90%;
+    margin: 10px;
+  }
+  .btnResp1{
+    width: 100%;
+  }
+  .btnListResp{
+    width: 70%;
+  }
+  .lineResp{
+    width: 100%;
+  }
+  .ticketListResp{
+    width: 98%;
+  }
+  .ticketResp{
+    width: 300px;
+  }
+  .detsResp{
+    width: 200px
+  }
+  .scooped-corners{
+    width: 95%;
+    max-width: 20em;
+  }
+}
