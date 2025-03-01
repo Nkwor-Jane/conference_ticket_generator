@@ -2,13 +2,13 @@
 
 ## Overview
 
-This is project is for promotion into stage 3 for the HNG Internship Cohort 12. This is a conference Ticket Generator that will allow users to fill out a form with their detaills, perform validations on the inputs, and generate a ticket upon successful submission.
+This project is for promotion into stage 3 for the HNG Internship Cohort 12. This conference Ticket Generator will allow users to fill out a form with their details, perform validations on the inputs, and generate a ticket upon successful submission.
 
 ## Features
 
-- **Form Elements:** These elements are full name, email address, aatar upload and a sub,it button.
-- **Form Validation:** This ensures that all required fields are filled in before submission.
-- **State Persistence:** The form should be able to retain user inuts using local storage so that the data is not lost on page refresh.
+- **Form Elements:** These elements are full name, email address, avatar upload, and a sub, it button.
+- **Form Validation:** This ensures all required fields are filled in before submission.
+- **State Persistence:** The form should be able to retain user inputs using local storage so that the data is not lost on page refresh.
 - **Accessibility:** This ensures that all form fields, hints, and error messages are screen-reader accessible.
 - **Ticket Generation:** On successful submission, the conference ticket is generated and displayed with the attendee's details.
 - **Responsive Design:** The form and ticket layout adjust seamlessly across different screen sizes.
@@ -30,7 +30,7 @@ This is project is for promotion into stage 3 for the HNG Internship Cohort 12. 
 ## Main Components
 
 1. **TicketList.jsx:** This renders the ticket type and number of tickets
-2. **AttendeeForm.jsx:** This accepts information of the attendee.
+2. **AttendeeForm.jsx:** This accepts information about the attendee.
 3. **SuccessScreen.jsx:** This displays the generated ticket.
 
 ## Screenshots
